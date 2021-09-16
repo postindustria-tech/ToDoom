@@ -7,11 +7,17 @@
 
 import SwiftUI
 
+struct Dependencies {
+    static let shared = Dependencies()
+
+    let dataManager = DataManager(addingStubs: true)
+}
+
 @main
 struct ToDoomApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProjectsView(dataManager: Dependencies.shared.dataManager)
         }
     }
 }

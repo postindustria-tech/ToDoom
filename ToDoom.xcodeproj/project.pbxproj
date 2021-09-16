@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		70FA3F7626D8E32200896622 /* ToDoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA3F7526D8E32200896622 /* ToDoomApp.swift */; };
-		70FA3F7826D8E32200896622 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA3F7726D8E32200896622 /* ContentView.swift */; };
+		70FA3F7826D8E32200896622 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA3F7726D8E32200896622 /* ProjectsView.swift */; };
 		70FA3F7A26D8E32500896622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FA3F7926D8E32500896622 /* Assets.xcassets */; };
 		70FA3F7D26D8E32500896622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FA3F7C26D8E32500896622 /* Preview Assets.xcassets */; };
+		70FA3F8526D8F5CD00896622 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA3F8426D8F5CD00896622 /* DataManager.swift */; };
+		70FA3F8726D8F6A500896622 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA3F8626D8F6A500896622 /* TodosView.swift */; };
+		70FA3F9626DBD62C00896622 /* CountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FA3F9526DBD62C00896622 /* CountsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		70FA3F7226D8E32200896622 /* ToDoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FA3F7526D8E32200896622 /* ToDoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoomApp.swift; sourceTree = "<group>"; };
-		70FA3F7726D8E32200896622 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70FA3F7726D8E32200896622 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		70FA3F7926D8E32500896622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70FA3F7C26D8E32500896622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70FA3F7E26D8E32500896622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70FA3F8426D8F5CD00896622 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		70FA3F8626D8F6A500896622 /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		70FA3F9526DBD62C00896622 /* CountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +58,13 @@
 		70FA3F7426D8E32200896622 /* ToDoom */ = {
 			isa = PBXGroup;
 			children = (
-				70FA3F7526D8E32200896622 /* ToDoomApp.swift */,
-				70FA3F7726D8E32200896622 /* ContentView.swift */,
-				70FA3F7926D8E32500896622 /* Assets.xcassets */,
 				70FA3F7E26D8E32500896622 /* Info.plist */,
+				70FA3F9526DBD62C00896622 /* CountsView.swift */,
+				70FA3F8426D8F5CD00896622 /* DataManager.swift */,
+				70FA3F7726D8E32200896622 /* ProjectsView.swift */,
+				70FA3F7526D8E32200896622 /* ToDoomApp.swift */,
+				70FA3F8626D8F6A500896622 /* TodosView.swift */,
+				70FA3F7926D8E32500896622 /* Assets.xcassets */,
 				70FA3F7B26D8E32500896622 /* Preview Content */,
 			);
 			path = ToDoom;
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70FA3F7826D8E32200896622 /* ContentView.swift in Sources */,
+				70FA3F7826D8E32200896622 /* ProjectsView.swift in Sources */,
+				70FA3F8526D8F5CD00896622 /* DataManager.swift in Sources */,
+				70FA3F8726D8F6A500896622 /* TodosView.swift in Sources */,
 				70FA3F7626D8E32200896622 /* ToDoomApp.swift in Sources */,
+				70FA3F9626DBD62C00896622 /* CountsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
